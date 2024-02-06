@@ -43,3 +43,11 @@ export const Small = {
     label: 'Button',
   },
 };
+
+export const Red = {
+  args: {
+    backgroundColor: 'red',
+    label: 'Red Button',
+  },
+};
+

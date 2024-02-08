@@ -46,7 +46,7 @@ export const Small = {
 
 export const Red = {
   args: {
-    backgroundColor: 'red',
+    backgroundColor: '#f79797',
     label: 'Red Button',
   },
 };

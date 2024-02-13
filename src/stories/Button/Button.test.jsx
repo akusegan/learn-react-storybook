@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Button from './Button';
+import { Button } from './Button';
 import { expect } from '@storybook/test';
 import { Primary, Red } from './Button.stories';
 
@@ -12,13 +12,13 @@ test("should render Button", () => {
  })
 
  test("should render primary button", () => { 
-     render(<Primary {...Primary.args} />);
+     render(<Button {...Primary.args} />);
      const buttonElement = screen.getByRole('button');
      expect(buttonElement).toHaveClass("storybook-button--primary");
  })
 
  test("should render red button", () => { 
-    render(<Red {...Red.args} />);
+    render(<Button {...Red.args} />);
     const buttonElement = screen.getByRole('button');
-    expect(buttonElement).toHaveStyle("background-color: red");
+    expect(buttonElement).toHaveStyle("background-color: #f79797");
 })

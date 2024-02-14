@@ -1,4 +1,6 @@
 [![CI workflow](https://github.com/akusegan/learn-react-storybook/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/akusegan/learn-react-storybook/actions/workflows/ci.yml)
+
+[![codecov](https://codecov.io/github/akusegan/learn-react-storybook/graph/badge.svg?token=DLJ5LPKO76)](https://codecov.io/github/akusegan/learn-react-storybook)
 # learn-react-storybook
 =======
 # Getting Started with Create React App

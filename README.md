@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+[![CI workflow](https://github.com/akusegan/learn-react-storybook/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/akusegan/learn-react-storybook/actions/workflows/ci.yml)
 # learn-react-storybook
 =======
 # Getting Started with Create React App
